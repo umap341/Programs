@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'print('Welcome to Google App Engine! Thank you Prof Gao for teaching Cloud Technologies')
+    return 'Welcome to Google App Engine! Thank you Prof Gao for teaching Cloud Technologies'
  #print('Thank you Prof.Gao for teaching Cloud Technologies')'
 if __name__ == '__My_project__':
     # This is used when running locally only. When deploying to Google App
