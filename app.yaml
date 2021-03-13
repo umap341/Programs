@@ -1,0 +1,17 @@
+#runtime: python39 # or another supported version
+#api_version:1
+#threadsafe:false
+
+#handler:
+# Matches requests to /images/... to files in static/images/...
+
+#-url: /.*
+#script:My_project.py
+
+runtime: python39 # or another supported version
+
+handlers:
+# Matches requests to /images/... to files in static/images/...
+
+- url: /.*
+  script: auto
